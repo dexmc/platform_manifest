@@ -44,7 +44,7 @@
   <project path="device/lge/hammerhead" name="SimpleAOSP-Lollipop/platform_device_lge_hammerhead" groups="device,hammerhead" remote="github" revision="L" />
   <!-- <project path="device/lge/hammerhead-kernel" name="device/lge/hammerhead-kernel" groups="device,hammerhead" clone-depth="1" /> -->
   <project path="device/lge/mako" name="SimpleAOSP-Lollipop/platform_device_lge_mako" groups="device,mako" remote="github" revision="L" />
-  <project path="device/lge/mako-kernel" name="device/lge/mako-kernel" groups="device,mako" clone-depth="1" />
+  <!-- <project path="device/lge/mako-kernel" name="device/lge/mako-kernel" groups="device,mako" clone-depth="1" /> -->
   <project path="device/moto/shamu" name="SimpleAOSP-Lollipop/platform_device_moto_shamu" groups="device,shamu" remote="github" revision="L" />
   <project path="device/moto/shamu-kernel" name="device/moto/shamu-kernel" groups="device,shamu" clone-depth="1" />
   <project path="device/sample" name="device/sample" groups="pdk" />
@@ -353,6 +353,7 @@
   <project path="hardware/ti/omap4-aah" name="platform/hardware/ti/omap4-aah" groups="omap4-aah" />
   <project path="hardware/ti/omap4xxx" name="platform/hardware/ti/omap4xxx" groups="omap4" />
   <project path="kernel/lge/hammerhead" name="SimpleAOSP-Lollipop/platform_kernel_lge_hammerhead" remote="github" revision="L" />
+  <project path="kernel/lge/mako" name="SimpleAOSP-Lollipop/platform_kernel_lge_mako" remote="github" revision="L" />
   <project path="libcore" name="platform/libcore" groups="pdk" />
   <project path="libnativehelper" name="platform/libnativehelper" groups="pdk" />
   <project path="manifest" name="SimpleAOSP-Lollipop/platform_manifest" remote="github" revision="L" />
