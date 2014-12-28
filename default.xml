@@ -24,7 +24,7 @@
   <project path="developers/samples/android" name="platform/developers/samples/android" />
   <project path="development" name="platform/development" groups="pdk-cw-fs" />
   <project path="device/asus/flo" name="SimpleAOSP-Lollipop/platform_device_asus_flo" groups="device,flo" remote="github" revision="L" />
-  <!-- <project path="device/asus/flo-kernel" name="device/asus/flo-kernel" groups="device,flo" clone-depth="1" /> -->
+  <project path="device/asus/flo-kernel" name="device/asus/flo-kernel" groups="device,flo" clone-depth="1" />
   <project path="device/common" name="device/common" groups="pdk-cw-fs" />
   <project path="device/generic/arm64" name="device/generic/arm64" groups="pdk" />
   <project path="device/generic/armv7-a-neon" name="device/generic/armv7-a-neon" groups="pdk" />
@@ -46,7 +46,7 @@
   <project path="device/lge/mako" name="SimpleAOSP-Lollipop/platform_device_lge_mako" groups="device,mako" remote="github" revision="L" />
   <!-- <project path="device/lge/mako-kernel" name="device/lge/mako-kernel" groups="device,mako" clone-depth="1" /> -->
   <project path="device/moto/shamu" name="SimpleAOSP-Lollipop/platform_device_moto_shamu" groups="device,shamu" remote="github" revision="L" />
-  <project path="device/moto/shamu-kernel" name="device/moto/shamu-kernel" groups="device,shamu" clone-depth="1" />
+  <!-- <project path="device/moto/shamu-kernel" name="device/moto/shamu-kernel" groups="device,shamu" clone-depth="1" /> -->
   <project path="device/sample" name="device/sample" groups="pdk" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" groups="pdk-cw-fs" />
   <project path="external/aac" name="platform/external/aac" groups="pdk" />
@@ -354,7 +354,8 @@
   <project path="hardware/ti/omap4xxx" name="platform/hardware/ti/omap4xxx" groups="omap4" />
   <project path="kernel/lge/hammerhead" name="SimpleAOSP-Lollipop/platform_kernel_lge_hammerhead" remote="github" revision="L" />
   <project path="kernel/lge/mako" name="SimpleAOSP-Lollipop/platform_kernel_lge_mako" remote="github" revision="L" />
-  <project path="kernel/asus/flo" name="SimpleAOSP-Lollipop/platform_kernel_asus_flo" remote="github" revision="L" />
+  <!-- <project path="kernel/asus/flo" name="SimpleAOSP-Lollipop/platform_kernel_asus_flo" remote="github" revision="L" /> -->
+  <project path="kernel/moto/shamu" name="SimpleAOSP-Lollipop/platform_kernel_moto_shamu" remote="github" revision="L" />
   <project path="libcore" name="platform/libcore" groups="pdk" />
   <project path="libnativehelper" name="platform/libnativehelper" groups="pdk" />
   <project path="manifest" name="SimpleAOSP-Lollipop/platform_manifest" remote="github" revision="L" />
